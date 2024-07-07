@@ -1,0 +1,26 @@
+.history-screen {
+    background-color: #cfcfcf;
+    height: 100vh;
+}
+
+.history-content {
+    padding-top: 10px;
+}
+
+.history-details {
+    max-width: 500px;
+    width: 100%;
+}
+.history-details > div {
+    padding: 5px 10px;
+    border-bottom: 1px solid var(--black);
+}
+.history-details a {
+    background-color: transparent;
+}
+.history-details a:nth-child(1) {
+    color: blue;
+}
+.history-details a:nth-child(2) {
+    color: red;
+}

@@ -1,0 +1,64 @@
+/* color codes */
+:root {
+    --white: #fff;
+    --black: #333;
+    --dark-grey: #565656;
+    --primary-btn: #8a2be2;
+    --outline-btn: #109710;
+}
+
+/* utility classes */
+
+/* container */
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* layout */
+.d-flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.align-start {
+    align-items: flex-start;
+}
+.gap-1 {
+    gap: 0.25rem;
+}
+.gap-2 {
+    gap: 0.5rem;
+}
+.gap-3 {
+    gap: 0.75rem;
+}
+.gap-4 {
+    gap: 1rem;
+}
+
+/* text styling */
+.text-center {
+    text-align: center;
+}
+.text-underline {
+    text-decoration: underline;
+}
+.text-red {
+    color: red;
+}
+
+/* width */
+.w-100 {
+    width: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+
+
+a {
+    text-decoration: none;
+}

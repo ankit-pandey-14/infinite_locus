@@ -1,0 +1,29 @@
+.home-screen {
+    background-color: #cfcfcf;
+    height: 100vh;
+}
+.home-search-container {
+    padding-top: 10px;
+}
+
+.weather-info {
+    margin-top: 14px;
+    flex-direction: column;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.weather-info .place-name {
+    font-size: 20px;
+}
+
+.weather-info .place-time {
+    font-size: 14px;
+}
+
+.weather-info .place-weather {
+    font-size: 17px;
+}
+.weather-info .place-temp {
+    font-size: 28px;
+}
